@@ -1,0 +1,85 @@
+:root{
+  --pink:#dc3664;
+  --green:#dce9cc;
+  --strongGreen:#75a843;
+  --red:#eb0b0b;
+ }
+.form-control:focus {
+    border: solid 2px var(--strongGreen)!important;
+    box-shadow: 0 0 5px var(--green)!important;
+
+}
+ .password{
+     cursor: pointer;
+     color: var(--strongGreen);
+     display: flex;
+ }
+ .icon{
+     padding: 5px;
+ }
+ .hide{
+     display: none!important;
+ }
+ .show{
+     display: flex!important;
+ }
+
+.size{
+    font-size: 14px;
+    margin-left: 10px;
+}
+.white-circle {
+    display: inline-block;
+    left: 0px;
+    top: 7px;
+    width: 9px;
+    height: 9px;
+    background-color: #dddddd;
+    border-radius: 100%
+}
+.valid{
+    background-color: var(--pink);
+}
+
+.invalid{
+    background-color: var(--green);
+}
+.modal-box{
+    display: none;
+    height: 50px;
+    background-color: var(--green);
+    margin-left: 2px;
+    margin-right: 2px;
+
+}
+.icon-style{
+    border: solid 2px black;
+    border-radius: 100%;
+    margin-top: 2.5%;
+    margin-left: 5%;
+}
+.span-style{
+    margin-top: 2.5%;
+    margin-left: 3%;
+    font-size: 15px;
+}
+.check-box{
+    display: flex;
+}
+.submit{
+    display: flex;
+    text-align: start;
+    margin-top: 30px;
+}
+.agree{
+    font-size: small;
+}
+.btn-pink{
+    background-color: var(--pink);
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 3px;
+    width: 90%;
+    height: 70%;
+}
