@@ -37,17 +37,17 @@
     background-color: #dddddd;
     border-radius: 100%
 }
-.valid{
+.invalid{
     background-color: var(--pink);
 }
 
-.invalid{
+.valid{
     background-color: var(--green);
 }
 .modal-box{
     display: none;
     height: 50px;
-    background-color: var(--green);
+    /*background-color: var(--green);*/
     margin-left: 2px;
     margin-right: 2px;
 
@@ -82,4 +82,22 @@
     border-radius: 3px;
     width: 90%;
     height: 70%;
+}
+.color{
+    color: var(--strongGreen);
+}
+.color:hover{
+    color: green;
+}
+.invalid-border{
+    border: 1px solid red!important;
+}
+.invalid-border:focus{
+    border: 1px solid red!important;
+    box-shadow: 0 0 5px var(--pink)!important;
+}
+.img-button{
+    width: 15px;
+    height: 15px;
+    margin-top: 9px;
 }
